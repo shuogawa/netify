@@ -5,7 +5,7 @@ const PageA: React.FC = () => {
   return (
     <>
       <Links/>
-      PageA
+      <h1>PageA</h1>
     </>
   )
 }
