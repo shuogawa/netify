@@ -1,14 +1,14 @@
 import React from "react";
 import Links from "../../components/Links";
-import {Center} from "@chakra-ui/react";
+import {Box} from "@chakra-ui/react";
 
 const Home: React.FC = () => {
   return (
     <>
-      <Center>
+      <Box p={4}>
         <Links/>
         Home
-      </Center>
+      </Box>
     </>
   )
 }
